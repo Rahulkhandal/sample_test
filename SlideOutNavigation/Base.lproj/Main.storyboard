@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Left View Controller-->
+        <scene sceneID="EZc-qT-Zhw">
+            <objects>
+                <viewController storyboardIdentifier="LeftViewController" title="Left View Controller" id="pYN-A4-Nnc" customClass="SidePanelViewController" customModule="ExploreDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="V6i-Hq-FZz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="RCq-Ex-qh1"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LND-qX-Ba8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-396" y="304"/>
+        </scene>
+        <!--RightViewController-->
+        <scene sceneID="gXg-hg-2wq">
+            <objects>
+                <viewController storyboardIdentifier="RightViewController" title="RightViewController" id="9TB-83-7BL" customClass="SidePanelViewController" customModule="ExploreDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WUk-UI-5pu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="HtI-Fg-gIX"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fuq-c2-e4m" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1287" y="376"/>
+        </scene>
+        <!--Center View Controller-->
+        <scene sceneID="w2e-0T-3L1">
+            <objects>
+                <viewController storyboardIdentifier="CenterViewController" title="Center View Controller" id="mz3-SU-cD5" customClass="CenterViewController" customModule="ExploreDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zce-K9-omp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <viewLayoutGuide key="safeArea" id="DkB-BL-t3k"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="L8a-d4-y7q"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m9c-bU-Frj" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="382"/>
+        </scene>
+        <!--CetagoryVC-->
+        <scene sceneID="UZ7-ZG-9HC">
+            <objects>
+                <viewController storyboardIdentifier="CetagoryVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ezD-WC-rLH" customClass="CetagoryVC" customModule="ExploreDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Dvz-Ts-E6M">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="TNe-5T-bxm"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="L25-LS-OkL"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d6F-40-1x0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1739.1304347826087" y="99.776785714285708"/>
+        </scene>
+        <!--ThemesVC-->
+        <scene sceneID="7xV-rg-da4">
+            <objects>
+                <viewController useStoryboardIdentifierAsRestorationIdentifier="YES" id="ghn-sM-ica" customClass="ThemesVC" customModule="ExploreDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="me3-2o-ONg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="zch-fm-ahl"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="MuH-s1-KnI"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SI8-ab-Y9m" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1645" y="774"/>
+        </scene>
+        <!--TrendingVC-->
+        <scene sceneID="mBz-zF-bgy">
+            <objects>
+                <viewController useStoryboardIdentifierAsRestorationIdentifier="YES" id="Lgy-XG-nlU" customClass="TrendingVC" customModule="ExploreDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DUB-7L-aGK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="TpZ-Nw-SMi"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="87j-YA-xun"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="10Y-Wa-JJf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="730" y="773"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
